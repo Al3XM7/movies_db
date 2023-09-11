@@ -2,9 +2,10 @@ const { DataTypes } = require('sequelize');
 const sequelize = require('../utils/connection');
 
 const Actors = sequelize.define('actor', {
-    firtsName: {
+    firstName: {
         type: DataTypes.STRING,
-        allowNull: false
+      
+        
     },
     lastName:{
         type: DataTypes.STRING,
